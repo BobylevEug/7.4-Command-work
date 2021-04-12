@@ -5,8 +5,8 @@
 ## 2.
 
 ## 3.
-
-'terraform {
+```yml
+terraform {
    backend "s3" {
     bucket = "netol-test"
     key    = "test/terraform.tfstate"
@@ -29,3 +29,4 @@ module "ec2-instance" {
 
 
 data "aws_caller_identity" "current" {}'
+```
