@@ -1,7 +1,5 @@
 # 7.4-Command-work
 
-## 1.
-
 ## 2.
 
 ```yml
